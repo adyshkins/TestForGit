@@ -7,10 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock x:Name="dfg">
+        <StackPanel>
+            <TextBlock x:Name="dfg">
             <Run Text="dfgdfg"/>
             <Run Text="dfgdfg"/>
             <Run Text="dfgdfg"/>
-        </TextBlock>
+            </TextBlock>
+        </StackPanel>
+        
     </Grid>
 </Window>
